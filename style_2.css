@@ -1,0 +1,32 @@
+.body{
+    font-family: Microsoft YaHei;
+    overflow: hidden;
+}
+.titls{
+    margin-bottom: -3000px;
+    padding-bottom: 3000px;
+    color: white;
+    background-color: rgb(101, 165, 250);
+    width: 20%;
+    float: left;
+    text-align: center;
+    padding-top: 20px;
+}
+.main{    
+    margin-left: 20%;
+    padding-top: 20px;
+    padding-left: 20px;
+
+}
+.tt{
+    display:block;
+}
+a:link{
+    color: black;
+}
+a:visited{
+    color: black;
+}
+span{
+    line-height: 1.5em;
+}

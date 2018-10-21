@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+}
+.titls{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    color: white;
+    background-color: #cccccc;
+}
+h2{
+    float: left;
+    font-size: 18px;
+    width: 100px;
+    height: 100px;
+    background-color: #cccccc;
+    color: black;
+    display: flex;
+    justify-content:center;
+    align-items:Center;
+}
+div p{
+    margin-left: 110px;
+    height: 100px;
+}
+.messagebox{
+    border-bottom-style: solid;
+    border-color: #dddddd;
+    width: 100%;
+}
+.tt{
+    display:block;
+}
+a:link{
+    color: black;
+}
+a:visited{
+    color: black;
+}
+span{
+    line-height: 1.5em;
+}
