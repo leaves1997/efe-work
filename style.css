@@ -1,0 +1,124 @@
+*{
+    margin: 0px;
+}
+.herder{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(51, 51, 51);    
+}
+.map{
+    margin:0 auto;
+    width: 960px;
+    height: 100%;
+    text-align: center;
+    color: white;
+   
+}
+.logo p{
+    margin: 0 auto;
+    font-size: 32px;
+    float: left;
+    line-height: 80px;
+}
+.site_map{
+    float: right;
+}
+.site_map a:link{
+    color: white;
+}
+.site_map a:visited{
+    color:white;
+}
+.banner{
+    margin: 0;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(102, 187, 51)
+}
+.banner_number{
+    float: right;
+    list-style-type: none;
+    margin-top: 220px;
+    margin-right: 200px;
+}
+.banner ul li{
+    display:inline;
+    border: 1px solid black;
+    background-color:rgba(255, 255, 255, 0.8);
+    margin: 6px 0px;
+    padding: 6px 8px;
+}
+.banner ul li:nth-child(2){
+    background-color:rgb(255, 255, 255);
+    margin: 6px 0px;
+    padding: 16px 8px 6px 8px;
+}
+nav{
+    width: 100%;
+	float: left;
+    position: relative;
+    height: 50px;
+}
+nav a{
+    text-decoration: none;    
+}
+nav a:link{
+    color: black;
+}
+nav a:visited{
+    color: black;
+}
+.nav ul{
+    list-style-type: none;
+    margin: 25px 0 4px 180px;
+}
+.nav ul li{
+    margin-right: -6px;
+    font-size: 12px;
+    display: inline;
+    position:relative; 
+    border: solid 1px #c5c5c5;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+    padding: 18px 10px 6px 10px;
+    background-color: #e7e7e7;
+}
+.nav ul li:nth-child(1){
+    background-color: white;
+    border-bottom: solid 1px #ffffff;
+}
+.nav hr{
+    float: left;
+    border: 0.5px solid rgb(192, 192, 192);
+    width: 100%;
+    bottom: 0px;
+}
+main{
+    width: 100%;
+    margin-top: 20px;
+}
+#main{
+	width: 960px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+#main div>div{
+	padding: 70px;
+	border: 1px solid #ddd;
+	margin: 10px;
+	font-size: 1.2em;
+	flex: 1 1 auto;
+	text-align: center;
+}
+#main>div{
+	display: flex;
+}
+.footer{
+    text-align: center;
+    background-color: #c5c5c5;
+    color: black;
+    height: 50px;
+    padding-top: 15px;
+}
