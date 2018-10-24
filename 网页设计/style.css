@@ -1,0 +1,364 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+  
+hr{
+    display:block;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    border: none;
+    border-top: 1px solid #e7e7e7;
+}
+/**********PAGE 1**********/
+#page1{
+    width: 100%;
+    background: url(page1/background.jpg) center;
+    height: 720px;
+}
+.content{
+    background: rgba(0, 0, 0, 0.6);
+    height: 720px;
+}
+.sign{
+    padding-top: 120px;
+    width: 980px;
+    height: 500px;
+    margin: 0 auto;
+}
+.sign h1{
+    color: white;
+    font-family: iconfont;
+    font-size: 84px;
+    text-align: center;
+    margin: 40px 0;
+}
+#intro{
+    margin: 0 auto;
+    color: white;
+    width: 770px;
+    text-align: center;
+    font-size: 24px;
+}
+#page1 form{
+    margin: 0 auto;
+    margin-top: 40px;
+    border: 1px solid #ffffff5b;
+    width: 770px;
+    text-align: center;
+    color: white;
+}
+#tips{
+    font-size: 14px;
+    color: #ffffff5b;
+}
+#page1 input{
+    width: 280px;
+    height: 50px;
+    margin:0 15px 20px 15px;
+    border: 1px solid #ffffff5b;
+    border-radius: 5px;
+    background: none;
+    color: #ffffff5b;
+}
+#page1 button{
+    border:none;
+    outline: none;
+    height:45px;
+    width: 100px;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 12px;
+}
+#account{
+    letter-spacing: 0.2em;
+}
+/**********PAGE 2***********/
+#title_1{
+    font-size: 14px;
+    text-align: center;
+    margin-top: 80px;
+    letter-spacing: 0.2em;
+}
+#text_1{
+    font-size: 42px;
+    text-align: center;
+    width: 840px;
+    margin: 0 auto;
+}
+#page2>div.list{
+    width: 100%;
+    height: 450px;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.content_1{
+    width: 400px;
+    height: 100px;;
+    margin:40px;
+}
+.content_1 img{
+    float: left;
+    margin-top: 25px;
+}
+.content_1 h3{
+    font-size: 20px;
+    margin-left: 80px;
+}
+.content_1 p{
+    color: #a7a7a7;
+    margin-left: 80px;
+}
+/**********PAGE 3***********/
+#page3{
+    width: 100%;
+    background: url(page3/background.jpg) center;
+    height: 720px;
+    display: flex;
+}
+#page3 div.content_2{
+    display:flex;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    height: 720px;
+}
+#page3 div.left{
+    width: 560px;
+    padding-left: 160px;
+}
+.left h3{
+    font-family: Arial;
+    font-size: 42px;
+    color: white;
+    width: 600px;
+    margin-top: 160px;
+}
+.left p{
+    width: 420px;
+    font-size: 18px;
+    line-height: 1.5em;
+    color: white;
+    margin-bottom: 30px;
+}
+.left button{
+    outline: none;
+    height: 50px;
+    width: 240px;
+    letter-spacing: 0.2em;
+}
+#check{
+    border:none;
+    color: black;
+    background-color: white;
+    margin-right: 25px;
+}
+#try{
+    color:white;
+    background: none;
+    border: 1px solid #ffffff5b;
+}
+#page3 div.right{
+    display:flex;
+    align-items:center;
+    overflow: hidden;
+}
+/***********PAGE4**************/
+#page4{
+    width: 100%;
+    height: 580px;
+}
+#page4>p{
+    text-align: center;
+    font-size: 54px;
+}
+#page4 div.list_1{
+    display:flex;
+    justify-content: center;
+    width:100%;
+    text-align: center;
+}
+.content_3{
+    color:#a7a7a7;
+    width:240px;
+    margin: 40px;
+    font-size: 18px;
+}
+/*********PAGE 5********/
+#page5{
+    width: 100%;
+    height: 600px;
+}
+#page5 div.list{
+    display:flex;
+    justify-content : space-between;
+    width: 820px;
+    height: 240px;
+    margin:0 auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+}
+#page5 div.text{
+    width: 340px;
+}
+#page5 p{
+    color: #a7a7a7;
+    line-height: 1.5em;
+}
+#page5 img{
+    height:100%;
+}
+/**********PAGE 6***********/
+#page6{
+    width: 100%;
+}
+#page6>h2{
+    text-align: center;
+    font-size: 48px;
+}
+#page6>p{
+    font-size: 18px;
+    text-align: center;
+    color: #a7a7a7; 
+    width: 720px;
+    margin:0 auto;
+}
+#page6 div.list{
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.person{
+    position: relative;
+}
+.person>img{
+    width: 470px;
+    height: 340px;
+    margin-bottom: 40px;
+
+}
+#page6 div.intro{
+    position: absolute;
+    top:0px;
+    background-color: #0000009f;
+    top:0px;
+    width: 470px;
+    height: 340px;
+    color:white;
+    text-align: center;
+    z-index: 1000;
+    opacity: 0;
+}
+#page6 div.intro h3{
+    font-size: 28px;
+    margin-top: 60px;
+}
+#page6 div.intro p{
+    font-size: 12px;
+    color:#ffffff5b;
+    margin-bottom: 30px;
+}
+#page6 div.intro i{
+    margin: 16px;
+}
+#page6 div.intro:hover{
+    opacity: 1;
+}
+/********PAGE 7***********/
+#page7{
+    margin: 0 auto;
+    width: 980px;
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+#message{
+    margin:60px;
+    width: 420px;
+    text-align: center;
+    border: 1px solid #a7a7a7;
+    border-radius: 10px;
+}
+#message input{
+    width: 350px;
+    height: 50px;
+    margin: 20px;
+}
+#message textarea{
+    width: 350px;
+    height: 120px;
+    margin: 20px;
+}
+#message button{
+    width: 350px;
+    height: 50px;
+    border: none;
+    background-color: black;
+    color:white;
+    margin-bottom: 30px;
+}
+#message p{
+    margin-top: 30px;
+}
+#contacts{
+    width: 420px;
+    margin-top: 80px;
+}
+#contacts>p{
+    color: #a7a7a7;
+    margin-top:40px;
+    margin-bottom: 50px;
+}
+#contacts>li{
+    list-style: none;
+    display:flex;
+    margin-bottom: 30px;
+}
+#contacts>li p{
+    margin-top: 0px;
+    margin-left: 20px;
+}
+/**********FOOTER************/
+#footer{
+    width: 100%;
+    background-color: black;
+    display:flex;
+    justify-content:space-between;
+}
+#footer div.list{
+    width: 150px;
+    margin: 40px;
+}
+#footer div.list:nth-child(1){
+    margin-left: 180px;
+}
+#footer div.list:nth-child(4){
+    margin-right: 180px;
+    width: 240px;
+}
+#footer p{
+    color:white;
+    letter-spacing: 0.1em;
+}
+#footer a{
+    text-decoration: none;
+}
+#footer a:link{
+    color: #757575;
+}
+#footer a:visited{
+    color: #757575;
+}
+#footer div.list img{
+    margin: 6px;
+    opacity: 0.6;
+}
