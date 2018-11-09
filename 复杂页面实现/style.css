@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+}
+
+::-webkit-scrollbar {
+    display: none
+}
+
+html,
+body {
+    height: 100%;
+}
+
+
+/**********fixed left**********/
+
+#fixed_left {
+    height: 100%;
+    width: 100px;
+    float: left;
+    background-color: rgb(29, 37, 49);
+}
+
+#fixed_left div.up {
+    width: 100px;
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#fixed_left div.box1 {
+    display: block;
+    margin: 10px 0;
+    width: 100px;
+    position: relative;
+}
+
+#fixed_left div.box1 span {
+    position: absolute;
+    left: 0px;
+    top: 22px;
+    opacity: 0;
+}
+
+#fixed_left div.box1:hover span {
+    opacity: 1;
+}
+
+#fixed_left div.box1 a>img {
+    margin-left: 20px;
+}
+
+#fixed_left div.down {
+    width: 100px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+#fixed_left div.down img {
+    margin: 0 5px 20px 5px;
+}
+
+
+/************middle*************/
+
+#middle {
+    width: 250px;
+    height: 100%;
+    float: left;
+    position: relative;
+    background-color: rgb(34, 44, 60);
+}
+
+hr {
+    width: 170px;
+    margin: 0 auto;
+    align-content: center;
+    color: #b7c0cd;
+    border-bottom: 1px;
+}
+
+#middle .hidden {
+    width: 250px;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+}
+
+#middle .list {
+    width: 250px;
+    position: absolute;
+    bottom: 80px;
+    overflow: auto;
+    top: 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-right: 17px;
+}
+
+#middle ul {
+    padding-left: 0px;
+    width: 250px;
+    list-style: none;
+    margin: 20px 0;
+}
+
+#middle ul li {
+    width: 250px;
+    position: relative;
+    height: 30px;
+}
+
+#middle ul li a {
+    font-size: 14px;
+    margin: 40px!important;
+    text-decoration: none;
+    color: #b7c0cd;
+}
+
+#middle ul li a:hover {
+    color: white;
+}
+
+#middle ul li p {
+    margin-left: 40px;
+    color: #5b6779;
+    font-size: 14px;
+}
+
+#middle ul li .dot img {
+    position: absolute;
+    top: 5px;
+    left: 0px!important;
+    opacity: 0;
+}
+
+#middle ul li:hover .dot>img {
+    opacity: 1;
+}
+
+#middle ul li a>img {
+    position: absolute;
+    top: 3px;
+    right: 20px;
+}
+
+#middle ul li>img {
+    position: absolute;
+    top: 3px;
+    right: 20px;
+}
+
+#middle .bottom {
+    text-align: center;
+    width: 250px;
+    height: 80px;
+    position: absolute;
+    bottom: 0px;
+    background-color: rgb(34, 44, 60);
+}
+
+#middle div.bottom div {
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 200px;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 14px;
+    justify-content: space-between;
+}
+
+
+/*************right***************/
+
+#right {
+    margin-left: 350px;
+    border-bottom: 1px solid #b7c0cd;
+}
+
+#right .hereder {
+    width: 100%;
+    height: 80px;
+    position: relative;
+    border-bottom: 1px solid #c0c0c0;
+}
+
+#right .hereder h1 {
+    font-size: 24px;
+    position: absolute;
+    left: 0px;
+    padding-left: 20px;
+    height: 80px;
+    line-height: 80px;
+    margin: 0 auto;
+}
+
+#userinfo {
+    width: 200px;
+    ;
+    height: 80px;
+    position: absolute;
+    display: block;
+    right: 0;
+}
+
+#userinfo .face {
+    float: left;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+#userinfo .list {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+#userinfo div {
+    width: 120px;
+    position: absolute;
+    left: 60px;
+    top: 19px;
+}
+
+#userinfo div>p {
+    font-size: 14px;
+    color: #5b6779;
+}
+
+#userinfo div>h4 {
+    color: #2399f1;
+}
